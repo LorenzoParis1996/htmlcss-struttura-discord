@@ -9,13 +9,9 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 2rem;
-    padding-bottom: 7rem;
+    padding-bottom: 13rem;
     background-color: rgb(101, 193, 224);
 
-}
-
-header>* {
-    border: 2px solid black;
 }
 
 
@@ -38,10 +34,19 @@ ul>li {
 }
 
 .header-intro {
-    display: flex;
     background-color: rgb(101, 193, 224);
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 9%;
 }
 
-p {}
+
+.title-intro {
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 1%;
+}
+
+.p-intro {
+    padding: 1% 33%;
+    line-height: 1.5em;
+}
