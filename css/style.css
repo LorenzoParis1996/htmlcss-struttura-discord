@@ -105,3 +105,17 @@ div.image {
 div.text {
     width: 30%;
 }
+
+.section-centered {
+    text-align: center;
+}
+
+.centered {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #23272A;
+    color: white;
+    padding: 2rem;
+}
