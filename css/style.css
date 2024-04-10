@@ -83,3 +83,25 @@ ul>li {
     color: white;
     margin-left: 10px;
 }
+
+main>section {
+    padding: 6rem;
+}
+
+.section-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.column {
+    padding: 2rem;
+}
+
+div.image {
+    width: 50%;
+}
+
+div.text {
+    width: 30%;
+}
