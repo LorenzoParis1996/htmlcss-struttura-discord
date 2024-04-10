@@ -22,14 +22,14 @@ header {
 }*/
 
 
-ul {
+ul.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-ul>li {
+ul>li.menu-item {
     padding: 0.50em 1rem;
     font-size: 20px;
     color: white;
@@ -118,4 +118,30 @@ footer {
     background-color: #23272A;
     color: white;
     padding: 2rem;
+}
+
+.big-purple-text {
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-footer,
+.big-purple-text {
+    list-style-type: none;
+}
+
+.ul-footer>li {
+    padding: 4%;
+}
+
+.sign-up {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    border-top: 1px solid white;
+
 }
